@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="title">
+            <h1>Calculator</h1>
+        </div>
+        <div class="main-screen">
+            <p class="output-screen" id="output-screen"></p>
+        </div>
+        <div class="input-screen">
+            <div class="fist-row">
+                <button class="%" id="operator">%</button> 
+                <button class="CE button" data-value="CE">CE</button>
+                <button data-value = "x^2" class="button">x<sup>2</sup></button>
+                <button data-value = "+/-" class="button"><sup>+</su>/<sub>-</sub> </button>
+            </div>
+            <div class="second-row">
+                <button class="7 button" data-value ="7">7</button>
+                <button class="8 button" data-value ="8">8</button>
+                <button class="9 button" data-value ="9">9</button>
+                <button data-value = "/" id="operator" class="button">/</button>
+            </div>
+            <div class="third-row">
+                <button class="4 button" data-value ="4">4</button>
+                <button class="5 button" data-value ="5">5</button>
+                <button class="6 button" data-value ="6">6</button>
+                <button data-value = "*" id="operator" class="button">X</button>
+            </div>
+            <div class="fourth-row">
+                <button class="1 button" id="1">1</button>
+                <button class="2 button" data-value ="2">2</button>
+                <button class="3 button" data-value ="3">3</button>
+                <button data-value = "-" id="operator" class="button">-</button>
+            </div>
+            <div class="fifth-row">
+                <button class="0 button" data-value ="0" >0</button>
+                <button class=".">.</button>
+                <button data-value ="+" class="button" id="operator" >+</button>
+                <button data-value = "=" class="button equal">=</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

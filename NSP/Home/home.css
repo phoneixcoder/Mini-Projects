@@ -1,0 +1,158 @@
+#header {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  /* background-color: darkslategray; */
+}
+#logo {
+  padding-right: 1000px;
+  float: left;
+  /* padding-left: 40px; */
+  width: 170px;
+  padding-left: 50px;
+}
+
+span {
+  color: darkslategrey;
+}
+.signUp {
+  margin-left: 10px;
+  border-radius: 3px;
+  box-shadow: 0 10px 4px 0 rgb(0 0 0 / 12%);
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: darkslategrey;
+  color: #fff;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: solid 3px;
+  transition: width 2s;
+}
+.mainHeading {
+  padding-top: 100px;
+  text-align: center;
+  font-family: cursive;
+  color: rgb(32, 109, 109);
+  text-shadow: 0 0 4px grey;
+  font-size: 50px;
+}
+.signIn {
+  margin-left: 10px;
+  border-radius: 3px;
+  box-shadow: 0 10px 4px 0 rgb(0 0 0 / 12%);
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: darkslategrey;
+  color: #fff;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: solid 3px;
+  transition: width 2s;
+}
+a:link {
+  text-decoration: none;
+}
+.signUp:hover {
+  width: 51px;
+}
+a:hover,
+a:active {
+  width: 50px;
+  color: wheat;
+  background-color: rgb(57, 145, 145);
+}
+.mainPara {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  padding-bottom: 20px;
+}
+.bg-img {
+  background-image: url("bg4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sign {
+  margin-left: 10px;
+  border-radius: 3px;
+  box-shadow: 0 10px 4px 0 rgb(0 0 0 / 12%);
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: darkslategrey;
+  color: #fff;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: solid 3px;
+  background-image: url(https://global-uploads.webflow.com/5d9d02c4b01a536c7d5d4a35/5dbb03b6285ec218bc573f16_Google%20Logo.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  transition: width 2s;
+}
+.sign:hover {
+  width: 200px;
+}
+.explore-more {
+  margin-left: 10px;
+  border-radius: 3px;
+  box-shadow: 0 10px 4px 0 rgb(0 0 0 / 12%);
+  display: inline-block;
+  padding: 9px 15px;
+  background-color: darkslategrey;
+  color: #fff;
+  border: 0;
+  line-height: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: solid 3px;
+  transition: width 2s;
+}
+.explore-more:hover {
+  width: 100px;
+}
+.links {
+  text-align: center;
+  padding-right: 170px;
+  padding-left: auto;
+  animation-duration: 2s;
+  animation-name: slideout;
+  animation-delay: 0s;
+  padding-right: 16em;
+}
+
+.mainHeading {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-delay: 0s;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 30%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes slideout {
+  from {
+    margin-left: -30%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: -8.47%;
+    width: 100%;
+  }
+}

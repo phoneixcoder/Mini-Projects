@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(220, 244, 253);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.zero{
+    background-color: rgb(220, 244, 253);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+}
+.zero img{
+    margin-top: 50px;
+    margin-right: 120px;
+    width: 580px;
+    margin-bottom: 20px;
+    border-radius: 19% 81% 50% 50% / 62% 51% 49% 38%  ;
+    border: none;
+    background-color: rgb(194, 232, 247);
+}
+.zero h3{
+    font-size: 60px;
+    font-family: cursive;
+    font-weight: 900;
+    color:rgb(33, 33, 82);
+    margin-top: 200px;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(1, 56, 66);
+}
+header a img{
+    width: 85px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 400px;
+}
+.sec a:hover{
+    background-color: rgb(255, 255, 255);
+    color: darkslategray;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.head{
+    font-weight: 500;
+    font-family: cursive;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    position: relative;
+    padding: 30px 12px 30px 12px;
+    background-color: white;
+}
+h1{
+    color: rgb(219, 15, 219);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+.search-box{
+    top: 50%;
+    left: 50%;
+    background: #2f3640;
+    height: 40px;
+    transform: translate(-50% -50%);
+    border-radius: 40px;
+    padding: 7px;
+    margin-bottom: 60px;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0px 6px;
+}
+.search-box:hover>.search-btn{
+    background: white;
+    color: black;
+
+}
+.search-btn{
+    color: #f0e9e7;
+    float: right;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-txt{
+    border: none;
+    outline: none;
+    float: left;
+    background: none;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 16px;
+    transition: 0.1s;
+    line-height: 4vh;
+    width: 0px;
+    margin-left: 0.7em;
+}
+td{
+    text-underline-position: none;
+}
+.head tr td:hover{
+    transition: all 0.3s ease;
+    background-color: rgb(245, 184, 72);
+}
+section{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+section a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f0e9e7;
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+.pic{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    background-color: rgb(194, 232, 247) ;
+    border-radius: 83% 17% 69% 31% / 30% 81% 19% 70% ;
+}
+a{
+    text-decoration: none;
+}
+.tada{
+    display: flex;
+    justify-content: space-around;
+}
+.tada h2{
+    font-weight: 500;
+    font-family: cursive;
+    font-size: 80px;
+    margin-bottom: 16px;
+}
+.tada h2 strong{
+    color: rgb(238, 208, 151);
+}
+.tada h2 b{
+    color: rgb(187, 149, 155);
+}
+.tada ul li p{
+    font-size: 20px;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.hash{
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-around;
+    font-family: cursive;
+    margin: 20px 20px 20px 20px;
+    background-color: rgb(1, 56, 66);
+    border: none;
+    text-align: center;
+    color: #f0e9e7;
+    padding: 8px 10px;
+    font-size: 16px;
+}
+.hash:hover{
+    background-color: white;
+    color: green;
+    transition: all 0.6s ease;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: rgb(34, 33, 33);
+    padding: 40px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li p small{
+
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    font-family: sans-serif;
+
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #01060c;
+    background-color: white;
+}
+@media (max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}
+#email{
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */ 
+}
+#number {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=text], textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact-form {
+    border-radius: 5px;
+    background-color: rgb(194, 232, 247) ;
+    padding: 20px;
+  }

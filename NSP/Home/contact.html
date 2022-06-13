@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="contact.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fontawesome.com/v5.15/icons/search?style=solid">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="logo01.png" alt="not found">
+        </a>
+        <section class="sec">
+            <a href="#" target="_blank">Home</a>
+            <a href="job.html" target="_blank">jobs</a>
+            <a href="#" target="_blank">courses</a>
+            <a href="#" target="_blank">about</a>
+            <a href="#" target="_blank">contact</a>
+        </section>
+    </header>
+    <main>
+        <div class="contact-form">
+            <form action="action_page.php">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                <label for="Email">Email</label>
+                <input type="email" required id="email" name="emai" placeholder="Your Email">
+                <label for="Contact-Number">Contact Number</label>
+                <input type="tel" required id="number" name="number" placeholder="Your Mobile Number" required>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea required>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+        <div>
+            <img class="pic" src="desk.png">
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>About</h4>
+                    <ul>
+                        <li>
+                            <p><small>
+                                    @copyrights GoEasy.com Pvt Ltd<br>
+                                    Student & Youth service platform<br>
+                                    Team GoEasy.com standard service<br>
+                                    platform.
+                                </small></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Web Page</h4>
+                    <ul>
+                        <li><a href="#">job</a></li>
+                        <li><a href="#">courses</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Goals</h4>
+                    <ul>
+                        <li><a href="#">Learning</a></li>
+                        <li><a href="#">Opportunities</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Hiring</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

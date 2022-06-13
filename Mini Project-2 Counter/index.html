@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Up Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="counter-value">
+        <p>Enter Value :</p>
+        <div id="input-range">
+            <input type="number" id="number" placeholder="Enter Number">
+            <div class="button">
+                <button onclick="startCounter()">Start Counter</button>
+                <button onclick="stop()">Stop Counter</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="counter-container">
+        <div class="counter" id="first">
+            <p class="current">0</p>
+            <p class="next">1</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

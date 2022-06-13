@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main_header {
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: #10ac84;
+}
+
+h1 {
+  color: #222f3e;
+}
+/*# sourceMappingURL=main.css.map */

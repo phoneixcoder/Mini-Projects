@@ -1,0 +1,149 @@
+ *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+header{
+    width: 100%;
+    display: flex;
+    background-color: rgb(118, 190, 248);
+}
+header img{
+    width: 120px;
+    margin-right: 580px;
+}
+header section a:hover{
+    background-color: white;
+    color: rgb(6, 114, 255);
+    transition: all 0.6s ease;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    border-style: ridge;
+}
+main{
+    background-color: rgb(185, 206, 250);
+    display: flex;
+}
+.sec{
+    margin-top: 20px;
+}
+.sec a{
+    text-decoration: none;
+    color: black;
+    font-size: 33px;
+    font-family: cursive;
+    margin-right: 16px;
+}
+.common{
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.common a{
+    text-decoration: none;
+    color: darkblue;
+}
+.common:hover{
+    transition: all 0.6s ease;
+   color:rgb(252, 25, 82);
+}
+.one{
+    display: flex;
+    justify-content: inline;
+}
+.one h2{
+    margin-right: 20px;
+    font-size: 40px;
+    font-family: cursive;
+}
+.one input{
+    width: 300px;
+    height: 25px;
+    margin-top: 15px;
+    
+}
+.girl{
+    width: 600px;
+    margin-left:260px;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: rgb(34, 33, 33);
+    padding: 40px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li p small{
+
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    font-family: sans-serif;
+
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+    transition: all 0.3s ease;
+}
+.footer-col .social-links a:hover{
+    color: #01060c;
+    background-color: white;
+}
+@media (max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+}

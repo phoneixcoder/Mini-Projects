@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_header{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #10ac84;
+}
+
+h1{
+    color: #222f3e;
+}
